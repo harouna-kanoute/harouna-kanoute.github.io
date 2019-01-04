@@ -1,5 +1,5 @@
-var content = document.querySelector('#menu-content');
-var sidebarBody = document.querySelector('#menu-sidebar-body');
+var content = document.querySelector('#menu-content'); /* pour recuperer le contenus du menu*/
+var sidebarBody = document.querySelector('#menu-sidebar-body');/* afficher les contenus du menu*/
 var button = document.querySelector('#menu-button');
 var overlay = document.querySelector('#menu-overlay');
 var activatedClass = 'menu-activated';
