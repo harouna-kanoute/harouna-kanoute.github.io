@@ -1640,7 +1640,7 @@ textarea {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: ;
+        align-items: center;
     }
 
     #experience h2{
