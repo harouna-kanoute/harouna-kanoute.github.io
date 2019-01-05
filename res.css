@@ -270,7 +270,7 @@
     }
 
     .competences  span{
-        font-size: 0.4em;
+        font-size: 0.6em;
     }
 
     .html-progress-bar{
@@ -578,7 +578,7 @@
     #contact{
         background-color: #778ca3;
         width: 80%;
-        margin: auto;
+        margin: 20px auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
