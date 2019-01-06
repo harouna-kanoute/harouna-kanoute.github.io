@@ -128,7 +128,7 @@ li a, .button {
 }
 
 #menu-sidebar li {
-    display: block;
+    display: block; /*afficher en block*/
 }
 
 #menu-sidebar-header {
@@ -136,35 +136,35 @@ li a, .button {
     background-size: cover;
     height: 128px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /*centrer les contenus*/
+    align-items: center; /*centrer les contenus*/
 }
 
 #menu-sidebar-header img{
-    width: 120px;
-    height: 120px;
-    border-radius: 100%;
+    width: 120px; /* definir la largeur*/
+    height: 120px;/*definir la hauteur*/
+    border-radius: 100%; /*arrondir le bordure*/
 }
 #menu-sidebar-body {
-    padding: 16px 8px;
+    padding: 16px 8px; /*definir une marge interieur*/
 }
 
 #menu-sidebar-body .button {
-    margin-top: 16px;
+    margin-top: 16px; /*ajouter une marge en haut*/
     text-align: center;
-    float: none;
-    display: block;
+    float: none; /*cacher le bouton*/
+    display: block;/*affiche en block*/
     height: auto;
-    line-height: inherit;
+    line-height: inherit; /*espace entre les lignes*/
     padding: 10px;
 }
 .menu-socio{
-    display: none;
+    display: none; /*cacher les elements*/
 }
 
 #container-principal{
     display: flex;
-    flex-direction: row;
+    flex-direction: row; /*afficher en inline*/
 }
 
     
@@ -174,12 +174,16 @@ aside{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    position: fixed; /*pour fixer l'aside*/
     line-height: 30px;
 }
 
 aside .en-tete img{
     border-radius: 100%; /*arrondir le bordure*/
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 100%;
 }
 .en-tete span{
     font-size: 2em; /*definir la taille de police*/
@@ -313,10 +317,10 @@ main{
     width: 90%;
     margin: auto;
     height: 100vh;
-    background-image: url('images/Plan.png');
-    background-repeat: no-repeat;
+    background-image: url('images/Plan.png'); /*image arriere plan */ 
+    background-repeat: no-repeat;/*pour ne pas repeter l'image*/
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed;/*mettre l'image en position fixe*/
 }
 
 .experience{
@@ -325,9 +329,9 @@ main{
 }
 
 #experience h2{
-    color: #2f3542;
-    font-size: 3em;
-    font-weight: bold;
+    color: #2f3542;/*couleur de police*/
+    font-size: 3em; /*taille de police*/
+    font-weight: bold; /*mettre la poolice  en gras*/
     text-align: center;
 }
 
@@ -373,7 +377,7 @@ main{
 #Formation h2{
     color: #2f3542;
     font-size: 3em;
-    text-align: center;
+    text-align: center; /*aligner le texte*/
 }
 
 #Formation  h3, h4, p{
