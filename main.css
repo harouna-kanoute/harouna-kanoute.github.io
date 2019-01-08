@@ -35,6 +35,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 10vh;
 }
 
 #logo, nav, li {
@@ -145,6 +146,7 @@ li a, .button {
     height: 120px;/*definir la hauteur*/
     border-radius: 100%; /*arrondir le bordure*/
 }
+
 #menu-sidebar-body {
     padding: 16px 8px; /*definir une marge interieur*/
 }
@@ -158,6 +160,7 @@ li a, .button {
     line-height: inherit; /*espace entre les lignes*/
     padding: 10px;
 }
+
 .menu-socio{
     display: none; /*cacher les elements*/
 }
@@ -166,8 +169,7 @@ li a, .button {
     display: flex;
     flex-direction: row; /*afficher en inline*/
 }
-
-    
+   
 aside{
     width: 30%;
     display: flex;
@@ -180,11 +182,9 @@ aside{
 
 aside .en-tete img{
     border-radius: 100%; /*arrondir le bordure*/
-    width: 300px;
-    height: 300px;
-    padding: 10px;
-    border-radius: 100%;
+    width: 200px;
 }
+
 .en-tete span{
     font-size: 2em; /*definir la taille de police*/
 }
@@ -193,6 +193,7 @@ aside .en-tete img{
     display: flex;
     flex-direction: column;
 }
+
 .footer .socio{
     display: flex;
     flex-direction: row; /*alignement  horizontal des elements*/
@@ -214,12 +215,13 @@ main{
     display: flex;
     flex-direction: column; /*aligner les uns en dessus des autres*/
     background-color: white; /*changer couleur d'arriere plan*/
+    height: auto;
 
 }
 
 #home-page{
     width: 100%; /* definir la largeur */ 
-    height: 100vh; /* definir la hauteur*/ 
+    height:100vh; /* definir la hauteur*/ 
     background-image: url('images/Plan2.png'); /*mettre une image en arriere plan*/
     background-size: contain;
     background-repeat: no-repeat; /*pour ne pas repeter l'image*/
@@ -257,6 +259,7 @@ main{
     text-align: center;
     margin-left: 35px;
     margin-top: 40px;
+    padding: 10px;
     border:none;  /* enlever les borbures*/
     text-decoration: none; /*enlever le soulignement*/
     font-size: 1em; /*definir une taille de police*/
@@ -268,29 +271,34 @@ main{
     background-color: rgba(229, 80, 57,0.8);
     border-radius: 20px;
     transition: 1s; /* la durée de la transition*/
-    box-shadow: 0pc 10px 10px rgb(65, 71, 77); /* mettre une ombre*/
+    box-shadow: 0pc 5px 5px rgb(65, 71, 77); /* mettre une ombre*/
     color:white;
 }
 
 /*-------------------------------Qui suis-je-----------------*/
 #about{
-    width: 90%;
-    margin: 30px auto;
+    width: 100%;
+    margin:auto;
     text-align: justify;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url('images/Plan.png'); /*image arriere plan */ 
+    background-repeat: no-repeat;/*pour ne pas repeter l'image*/
+    background-size: cover;
+    background-attachment: fixed;/*mettre l'image en position fixe*/
 }
 #about img{
-    width: 200PX;
-    height: 200px;
+    width: 150PX;
+    height: 150px;
+    padding: 5px;
 }
 
 #about h2{
     margin-top: 0px;
     color: #2f3542;
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
     font-weight: bold; /* mettre en gras la police*/
 }
@@ -304,19 +312,18 @@ main{
 }
 
 .about section{
-    margin: 10px;
+    margin: 5px;
     padding: 5px;
 }
 
 .about section p{
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: center;
 }
 /*-------------------------------Experiences-----------------*/
 #experience{
-    width: 90%;
+    width: 100%;
     margin: auto;
-    height: 100vh;
     background-image: url('images/Plan.png'); /*image arriere plan */ 
     background-repeat: no-repeat;/*pour ne pas repeter l'image*/
     background-size: cover;
@@ -330,7 +337,7 @@ main{
 
 #experience h2{
     color: #2f3542;/*couleur de police*/
-    font-size: 3em; /*taille de police*/
+    font-size: 2.5em; /*taille de police*/
     font-weight: bold; /*mettre la poolice  en gras*/
     text-align: center;
 }
@@ -353,20 +360,23 @@ main{
 
 .experience h3{
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1em;
+    text-align: center;
 }
 
 .experience h4{
     font-weight: bold;
-    font-size: 1em;
+    font-size: 0.7em;
 }
 
 /*-------------------------------formation-----------------*/
-#formation{
-    margin: 30px;
-    padding: 10px;
-    height: 100vh;
-    margin-bottom: 20px;
+#Formation{
+    width: 100%;
+    margin: 0px;
+    background-image: url('images/Plan.png'); /*image arriere plan */ 
+    background-repeat: no-repeat;/*pour ne pas repeter l'image*/
+    background-size: cover;
+    background-attachment: fixed;/*mettre l'image en position fixe*/
 }
 
 #Formation span{
@@ -376,7 +386,7 @@ main{
 
 #Formation h2{
     color: #2f3542;
-    font-size: 3em;
+    font-size: 2em;
     text-align: center; /*aligner le texte*/
 }
 
@@ -386,10 +396,10 @@ main{
     text-align: center;
 }
 
-  #Formation .formation img{
-    width: 200px;
-    height: 200px;
-  }
+#Formation .formation img{
+    width: 100px;
+    height: 100px;
+}
 
 .formation1{
     display: flex;
@@ -404,8 +414,8 @@ main{
     padding: 10px;
 }
 .sous-formation1  img{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }
 
 .sous-formation2{
@@ -415,9 +425,10 @@ main{
     align-items: center;
     padding: 10px;
 }
+
 .sous-formation2  img{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }
 
 .formation2{
@@ -435,8 +446,9 @@ main{
     width: 50%;
 }
 .sous-formation3  img{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
 }
 
 .sous-formation4{
@@ -448,19 +460,18 @@ main{
     width: 50%;
 }
 .sous-formation4  img{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
 }
 /*-------------------------------competences-----------------*/
 #Competences{
-    width: 90%;
-    height: 100vh;
-    margin: 80px auto;
+    width: 100%;
     text-align: center;
-    background-image:url('images/pl.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-image: url('images/Plan.png'); /*image arriere plan */ 
+    background-repeat: no-repeat;/*pour ne pas repeter l'image*/
     background-size: cover;
+    background-attachment: fixed;/*mettre l'image en position fixe*/
 }
 
 #Competences h2{
@@ -470,13 +481,13 @@ main{
 }
 
 .competences{
-    padding: 20px;
+    padding: 40px;
 }
 
 .html-progress-bar{
     background-color:#bdc3c7;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .html{
@@ -498,7 +509,7 @@ main{
 .css-progress-bar{
     background-color:#bdc3c7;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .css{
@@ -520,7 +531,7 @@ main{
 .photoshop-progress-bar{
     background-color:#bdc3c7;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .photoshop{
@@ -541,7 +552,7 @@ main{
 .github-progress-bar{
     background-color:#bdc3c7;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .git{
@@ -562,7 +573,7 @@ main{
 .js-progress-bar{
     background-color:#bdc3c7;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .js{
@@ -583,7 +594,7 @@ main{
 .nodejs-progress-bar{
     background-color:#bdc3c7;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .nodejs{
@@ -603,7 +614,7 @@ main{
 .photoshop-progress-bar{
     background-color:#bdc3c7;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .photoshop{
@@ -624,7 +635,7 @@ main{
 .wordpress-progress-bar{
     background-color:#bdc3c7;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .wordpress{
