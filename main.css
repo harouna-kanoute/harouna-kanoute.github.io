@@ -1,4 +1,4 @@
-/*html, body, div, span, applet, object, iframes,
+html, body, div, span, applet, object, iframes,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -18,7 +18,7 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
-*/
+
 body {
     margin: 0;
     padding: 0;
@@ -360,13 +360,17 @@ main{
 
 .experience h3{
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.5em;
     text-align: center;
 }
 
 .experience h4{
     font-weight: bold;
-    font-size: 0.7em;
+    font-size: 1em;
+    color: #ff7979;
+}
+.experience p span{
+    color: #ff7979;
 }
 
 /*-------------------------------formation-----------------*/
@@ -656,30 +660,35 @@ main{
 /*-------------------------------passion-----------------*/
 #passion{
     width: 100%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
+    background-image: url('images/Plan.png'); /*image arriere plan */ 
+    background-repeat: no-repeat;/*pour ne pas repeter l'image*/
+    background-size: cover;
+    background-attachment: fixed;/*mettre l'image en position fixe*/
 }
 
 #passion h2{
-    font-size: 3em;
+    font-size: 2.2em;
+    font-weight: bold;
     color:#2f3542;
     text-align: center;
 }
 
 .mes-passions1{
-    margin: 10px;
-    padding: 20px;
+    margin: 40px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .sport{
     background-color: #778ca3;
     width: 50%;
-    height: 200px;
+    height: 130px;
     margin: 10px;
     border-radius: 10px;
     box-shadow: 0px 10px 10px;
@@ -690,13 +699,13 @@ main{
 }
 
 .sport h3{
-display: none;
+    display: none;
 }
 
 .sport:hover h3{
-display: block;
-color: white;
-text-align: center;
+    display: block;
+    color: white;
+    text-align: center;
 }
 
 
@@ -714,7 +723,7 @@ text-align: center;
     position: relative;
     background-color: #778ca3;
     width: 50%;
-    height: 200px;
+    height: 130px;
     margin: 10px;
     border-radius: 10px;
     box-shadow: 0px 10px 10px;
@@ -733,17 +742,17 @@ text-align: center;
 }
 
 .voyage h3{
-display: none;
+    display: none;
 }
 
 .voyage:hover h3{
-display: block;
-color: white;
-text-align: center;
+    display: block;
+    color: white;
+    text-align: center;
 }
 
 .mes-passions2{
-    margin: 10px;
+    margin: 40px;
     padding: 20px;
     display: flex;
     flex-direction: row;
@@ -754,7 +763,7 @@ text-align: center;
 .cinema{
     background-color: #778ca3;
     width: 50%;
-    height: 200px;
+    height: 130px;
     margin: 10px;
     border-radius: 10px;
     box-shadow: 0px 10px 10px;
@@ -775,19 +784,19 @@ text-align: center;
 }
 
 .cinema h3{
-display: none;
+    display: none;
 }
 
 .cinema:hover h3{
-display: block;
-color: white;
-text-align: center;
+    display: block;
+    color: white;
+    text-align: center;
 }
 
 .jeux{
     background-color: #778ca3;
     width: 50%;
-    height: 200px;
+    height: 130px;
     margin: 10px;
     border-radius: 10px;
     box-shadow: 0px 10px 10px;
@@ -808,48 +817,56 @@ text-align: center;
 }
 
 .jeux h3{
-display: none;
+    display: none;
 }
 
 .jeux:hover h3{
-display: block;
-color: white;
-text-align: center;
+    display: block;
+    color: white;
+    text-align: center;
 }
 
 /*-------------------------------passion-----------------*/
 
 #contact{
-    width: 90%;
-    margin: 100px auto;
+    width: 100%;
+    margin: 70px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
+    background-image: url('images/Plan.png'); /*image arriere plan */ 
+    background-repeat: no-repeat;/*pour ne pas repeter l'image*/
+    background-size: cover;
+    background-attachment: fixed;/*mettre l'image en position fixe*/
 }
 
 .cordonnees{
-    background-color: #778ca3;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 5px;
+    width: 30%;
 }
 
 .cordonnees p{
     text-align: justify;
+    font-size: 1em;
+    padding: 5px;
+}
+
+.cordonnees a{
+    font-size: 0.7em;
 }
 
 .cordonnees img{
     width: 20px;
     height: 20px;
+    vertical-align: middle;
 }
 
 form {
-  margin: 5px;
-  width: 90%;
-  padding: 1em;
-  border: 1px solid #CCC;
-  border-radius: 5px;
+    margin: 5px;
+    width: 70%;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 5px;
 }
 input{
     width: 100%;
