@@ -386,10 +386,11 @@
     }
 
     @keyframes js{
-        0%{width:0%;background-color: #2ecc71;}
+        0%{width: 0%;background-color: #2ecc71;}
+        25%{width: 5%;background-color: #2ecc71;}
         50%{width: 10%;background-color: #2ecc71;}
-        50%{width: 20%;background-color: #2ecc71;}
-        100%{width: 40%;background-color: #2ecc71;}
+        75%{width: 15%;background-color: #2ecc71;}
+        100%{width: 25%;background-color: #2ecc71;}
     }
 
     .nodejs-progress-bar{
