@@ -61,11 +61,15 @@
 		    </aside>
 		    <main>
 		    	<div id="contact">           
-				    <form action = "https://formspree.io/harounakanoute@hotmail.com " method = "POST">
-				    	<input type="text" required="required"name="Prenom" id="prenom" placeholder="Prenom"><br><br>
-				    	<input type="text" required="required" name="Nom" id="Nom" placeholder="Nom"> <br><br>
-				    	<input type="Email" required="required" name="Email" id="email" placeholder="Email"><br><br>
-				    	<textarea>Tapez votre message</textarea><br><br>
+					<form action = "https://formspree.io/harounakanoute@hotmail.com " method = "POST">
+						<label for="Prenom">Prenom</label>
+						<input type="text" required="required"name="Prenom" id="prenom" placeholder="Prenom"><br><br>
+						<label for="Nom">Nom</label>
+						<input type="text" required="required" name="Nom" id="Nom" placeholder="Nom"> <br><br>
+						<label for="Email">Email</label>
+						<input type="Email" required="required" name="Email" id="email" placeholder="Email"><br><br>
+						<label for="message">Tapez votre message</label>
+				    	<textarea id="message">Tapez votre message</textarea><br><br>
 				    	<input class="submit" type="submit" name="Envoyer">
 			    	</form>
 			    

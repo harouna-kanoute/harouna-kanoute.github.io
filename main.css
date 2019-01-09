@@ -832,7 +832,7 @@ main{
 
 #contact{
     width: 100%;
-    margin: 70px auto;
+    margin: 30px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -866,13 +866,15 @@ main{
 form {
     margin: 5px;
     width: 70%;
-    padding: 1em;
+    padding: 20px;
     border: 1px solid #CCC;
     border-radius: 5px;
 }
 input{
     width: 100%;
     height: 30px;
+    font-weight: bold;
+    color: black;
 }
 .input{
     width: 50%;
@@ -880,9 +882,21 @@ input{
     margin-left: auto;
 }
 
-textarea {
+textarea{
     height: 8em;
     width: 100%;
+}
+label{
+    display:block;
+    float:left;
+    width:150px;
+    width: 50%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.submit{
+    width: 30%;
 }
 
 hr{
