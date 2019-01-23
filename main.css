@@ -183,10 +183,15 @@ aside{
 aside .en-tete img{
     border-radius: 100%; /*arrondir le bordure*/
     width: 200px;
+    margin: 5px 100px 5px 100px;
 }
 
 .en-tete span{
     font-size: 2em; /*definir la taille de police*/
+}
+.en-tete p:last-child{
+    font-size: 2em;
+    color: red;
 }
 
 .footer{
@@ -236,7 +241,7 @@ main{
     animation: anim1 3s linear infinite; /* animer et definir une durer*/
     text-align: left; /*aligner le tex à gauche*/
     margin-left: 35px; /*ajouter une marge à gauche*/
-    margin-top: 50px;  /* ajouter une marge à droite*/
+    margin-top: 100px;  /* ajouter une marge à droite*/
 }
 
 @keyframes anim1{
@@ -248,8 +253,8 @@ main{
 }
 
 .container2 #home-page  span{
-    color: white;
-    font-size: 0.6em;
+    color:black;
+    font-size: 0.9em;
 }
 
 .container2 #home-page  a{
@@ -258,7 +263,7 @@ main{
     height: auto; /*definir la hauteur*/
     text-align: center;
     margin-left: 35px;
-    margin-top: 40px;
+    margin-top: 50px;
     padding: 10px;
     border:none;  /* enlever les borbures*/
     text-decoration: none; /*enlever le soulignement*/
@@ -351,6 +356,12 @@ main{
 .experience2{
     padding: 10px;
     width: 50%;
+    text-align: center;
+}
+.experience2 span{
+    text-align: center;
+    color: #ff7979;
+    font-weight: bold;
 }
 
 .experience p{
