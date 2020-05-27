@@ -1014,11 +1014,11 @@ footer a{
   display: flex;
   justify-content: center;
   align-items: center;
+  transition-delay: 10s;
+  transition-duration: 2s;
 }
 .top{
   width: 30%;
   margin: 20px;
-}
-html{
-  scroll-behavior: smooth;
+  transition-delay: 10s;
 }

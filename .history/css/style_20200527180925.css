@@ -1014,6 +1014,9 @@ footer a{
   display: flex;
   justify-content: center;
   align-items: center;
+  transition-delay: 3s;
+  transition-duration: 2s;
+  scroll-behavior: smooth;
 }
 .top{
   width: 30%;
