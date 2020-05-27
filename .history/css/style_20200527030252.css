@@ -557,7 +557,6 @@ background-image: url('../Asset/back5.png'), url('../Asset/nat.jpg');
   font-size: 1em;
   font-weight: bold;
   color: white;
-  padding: 10px;
 }
 .card2 .description p{
   padding: 30px;

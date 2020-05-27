@@ -548,7 +548,7 @@ background-image: url('../Asset/back5.png'), url('../Asset/nat.jpg');
 }
 .card2 .entrepriseInfo h2{
   padding: 5px;
-  text-align: center;
+  text-align: justify;
   font-size: 1.5em;
 }
 .card2 .entrepriseInfo > p{
@@ -557,12 +557,11 @@ background-image: url('../Asset/back5.png'), url('../Asset/nat.jpg');
   font-size: 1em;
   font-weight: bold;
   color: white;
-  padding: 10px;
 }
 .card2 .description p{
   padding: 30px;
-  line-height: 30px;
-  text-align: left;
+  line-height: 25px;
+  text-align: justify;
 }
 .card2 .description p > a{
   color: black;
